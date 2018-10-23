@@ -44,4 +44,13 @@ from catalog_app import app as application
 I configured Apache to use mod wsgi to pointed my application. I edited `/etc/apache2/sites-enabled/000-default.conf` and added `WSGIScriptAlias / /var/www/html/myapp.wsgi` line.  Restarted Apache2 server.
 
 ### Configure Google Oauth
-My Udacity Item Catalog Application uses Google Oauth for authentication, and only `localhost` was allwed as authorized host in Google Oauth setup in Google Cloud console. I had to add few more endpoints to Google Oauth so that users can get authenticated when they visit my app page. I added http://35.178.28.30.xip.io to trusted domains. 
+My Udacity Item Catalog Application uses Google Oauth for authentication, and only `localhost` was allwed as authorized host in Google Oauth setup in Google Cloud console. I had to add few more endpoints to Google Oauth so that users can get authenticated when they visit my app page. I added http://35.178.28.30.xip.io to trusted domains.
+
+## Appendix: Access Details
+>**IP address**: 35.178.28.30
+>**SSH port**: 2200
+>**FQDN**: http://35.178.28.30.xip.io
+>**SSH user** : grader
+>**SSH Key**: Submitted with project
+>**App directory**: /var/www/html
+ 
