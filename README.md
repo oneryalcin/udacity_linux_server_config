@@ -53,4 +53,6 @@ My Udacity Item Catalog Application uses Google Oauth for authentication, and on
 >**SSH user** : grader
 >**SSH Key**: Submitted with project
 >**App directory**: /var/www/html
- 
+
+in order to connect to server use this command:
+`ssh grader@35.178.28.30 -p 2200 -i <submitted private key>` 
